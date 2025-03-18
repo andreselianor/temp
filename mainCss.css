@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: paragraphs;
+    src: url(../mainResources/HammersmithOne.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+p,
+.button {
+    position: relative;
+}
+
+h1 {
+    font-family: paragraphs;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 5px mediumaquamarine;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 40pt;
+    font-family: paragraphs;
+    bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+p,
+a,
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 30px;
+    width: 300px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid black 1px;
+    bottom: 50px;
+}
