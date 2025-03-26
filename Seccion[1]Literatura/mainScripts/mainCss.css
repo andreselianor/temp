@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "titles";
+    src: url(./Southland.ttf);
+}
+
+@font-face {
+    font-family: "paragraphs";
+    src: url(./PoiretOne.ttf);
+}
+
+body {
+    background-image: url(../mainResources/imagenFondo.png);
+    background-position: 350px 150px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: titles;
+    padding: 0px 40px;
+    position: sticky;
+    background-color: rgba(255, 235, 205, 0.5);
+    top: 10px;
+}
+
+nav {
+    background-color: blanchedalmond;
+    padding: 5px 40px;
+}
+
+footer {
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 5px 5px 5px;
+    font-family: titles;
+    font-size: 20pt;
+    border-top: solid black 1px;
+}
+
+p {
+    padding: 10px 50px;
+    width: 70vw;
+}
+
+h3.h3book {
+    padding: 10px 50px;
+    width: 70vw;
+}
+
+.h4book {
+    padding: 0px 50px;
+    width: 70vw;
+}
+
+a {
+    font-family: paragraphs;
+    font-weight: bold;
+}
+
+/* #title {
+    position: sticky;
+    top: 10px;
+    background-color: rgba(224, 255, 255, 0.5);
+    height: 50px;
+} */
+
+#content·Title {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 30px;
+}
+
+#title a {
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+}
+
+.p·footer {
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    width: 0vw;
+}
+
+.index·Image {
+    padding: 0px 40px;
+    width: 300px;
+}
+
+.card·Title {
+    width: 150px;
+}
+
+.image·Title {
+    width: 150px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.clasificacion {
+    width: 200px;
+}
+
+.bookDetailIMG {
+    margin: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.sinopsis {
+    background-color: rgb(212, 224, 224);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px 40px;
+    width: 80vw;
+}
+
+@media (width < 500px) {
+
+    .card·Title {
+        width: 70vw;
+    }
+
+    .image·Title {
+        width: 70vw;
+    }
+
+    .index·Image {
+        padding: 0px 40px;
+        width: 70vw;
+    }
+
+    .index·a {
+        padding: 0px 40px;
+    }
+}
