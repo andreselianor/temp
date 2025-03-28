@@ -62,13 +62,6 @@ a {
     font-weight: bold;
 }
 
-/* #title {
-    position: sticky;
-    top: 10px;
-    background-color: rgba(224, 255, 255, 0.5);
-    height: 50px;
-} */
-
 #content·Title {
     display: inline-flex;
     flex-wrap: nowrap;
@@ -122,7 +115,6 @@ a {
 }
 
 @media (width < 500px) {
-
     .card·Title {
         width: 70vw;
     }
@@ -138,5 +130,11 @@ a {
 
     .index·a {
         padding: 0px 40px;
+    }
+
+    .p·footer {
+        font-size: 15pt;
+        display: flex;
+        justify-content: center;
     }
 }
